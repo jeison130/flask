@@ -14,3 +14,6 @@ def getAllUsers():
     cursor.execute('select * from usuarios')
 
     return cursor.fetchall()
+
+def crearUsuario(nombre, apellidos, email):
+    return true
